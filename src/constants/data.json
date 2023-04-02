@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "Audi A1 S-Line",
+        "img": "https://car-rental-ten.vercel.app/static/media/audia1.d038cf70b700e34e607a.jpg",
+        "price": "50,000",
+        "model": "Audi",
+        "mark": "A1",
+        "year": "2012",
+        "doors": "4/5",
+        "AC": "Yes",
+        "Transmission": "Manual",
+        "Fuel": "Gasoline"
+    },
+    {
+        "id": 2,
+        "name": "VW Golf 6",
+        "img": "https://car-rental-ten.vercel.app/static/media/golf6.595c0bbfc7ce2e50aa05.jpg",
+        "price": "42000",
+        "model": "Golf 6",
+        "mark": "Volkswagen",
+        "year": "2008",
+        "doors": "4/5",
+        "AC": "Yes",
+        "Transmission": "Manual",
+        "Fuel": "Diesel"
+    },
+    {
+        "id": 3,
+        "name": "Toyota Camry",
+        "img": "https://car-rental-ten.vercel.app/static/media/toyotacamry.3d493a56558c50b677cc.jpg",
+        "price": "37000",
+        "model": "Camry",
+        "mark": "Toyota",
+        "year": "2006",
+        "doors": "4/5",
+        "AC": "Yes",
+        "Transmission": "Automatic",
+        "Fuel": "Hybrid"
+    },
+    {
+        "id": 4,
+        "name": "BMW 320 ModernLine",
+        "img": "https://car-rental-ten.vercel.app/static/media/bmw320.84ab73b0c9133418f907.jpg",
+        "price": "40000",
+        "model": "320",
+        "mark": "BMW",
+        "year": "2012",
+        "doors": "4/5",
+        "AC": "Yes",
+        "Transmission": "Manual",
+        "Fuel": "Diesel"
+    },
+    {
+        "id": 5,
+        "name": "Mercedes-Benz GLK",
+        "img": "https://car-rental-ten.vercel.app/static/media/benz.0a6153731a2c1a68054a.jpg",
+        "price": "50000",
+        "model": "Benz GLK",
+        "mark": "Mercedes",
+        "year": "2006",
+        "doors": "4/5",
+        "AC": "Yes",
+        "Transmission": "Manual",
+        "Fuel": "Diesel"
+    },
+    {
+        "id": 6,
+        "name": "VW Passat CC",
+        "img": "https://car-rental-ten.vercel.app/static/media/passatcc.bd82bd1deac8c11e3c4d.jpg",
+        "price": "30000",
+        "model": "Passat CC",
+        "mark": "Volkswagen",
+        "year": "2008",
+        "doors": "4/5",
+        "AC": "Yes",
+        "Transmission": "Automatic",
+        "Fuel": "Gasoline"
+    }
+]

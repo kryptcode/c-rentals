@@ -29,7 +29,7 @@ const Models = () => {
                         data.map(vehicle => (
                             <div 
                                 key={vehicle.id} 
-                                className={`${model == vehicle.id && 'bg-black text-white'}  py-1.5 md:py-3.5 px-4  border  cursor-pointer text-sm md:text-lg font-semibold`}
+                                className={`${model == vehicle.id ? 'bg-black text-white' : 'bg-gray-100'}  py-1.5 md:py-3.5 px-4  border  cursor-pointer text-sm md:text-lg font-semibold`}
                                 onClick={() => setModel(vehicle.id)}
                             >
                                 {vehicle.name}
@@ -44,8 +44,8 @@ const Models = () => {
 
                 <div className='flex-1 '>
                     <div className='border-2 border-gray-500'>
-                        <div className='flex space-x-2 md:text-lg p-2 border-b-2 bg-black text-white  border-gray-600'>
-                            <div className='font-bold  '>
+                        <div className='flex space-x-2 md:text-lg p-2 border-b-2 bg-black text-white  border-gray-600 items-center'>
+                            <div className='font-bold md:text-2xl '>
                                 N {data[model].price}
                             </div>
                             <span className='font-semibold'>
@@ -118,6 +118,9 @@ const Models = () => {
                             {data[model].Fuel}
                             </div>
                         </div>
+                    </div>
+                    <div className='py-2 w-full bg-black text-white text-center font-medium mt-5 cursor-pointer hover:shadow-lg'>
+                        Reserve Now
                     </div>
                 </div>
             </section>

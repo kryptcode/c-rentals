@@ -1,6 +1,10 @@
 import { Bars4Icon } from '@heroicons/react/24/outline'
+import { Link } from "react-router-dom";
+import { useRecoilState } from 'recoil';
+import { modalOpenState } from '../atoms/modalAtom';
 
 const Navbar = () => {
+    const [modal, setModal] = useRecoilState(modalOpenState)
   return (
     <div className='py-5'>
         <div className='w-[90%] mx-auto flex justify-between items-center '>
@@ -9,21 +13,31 @@ const Navbar = () => {
             </div>
 
             <div className='md:flex space-x-6 font-semibold hidden'>
-                <div className='hover:text-violet-950 cursor-pointer px-2'>
-                    Home
-                </div>
-                <div className='hover:text-violet-950 cursor-pointer px-2'>
-                    About
-                </div>
-                <div className='hover:text-violet-950 cursor-pointer px-2'>
-                    Vehicle Models
-                </div>
-                <div className='hover:text-violet-950 cursor-pointer px-2'>
-                    Our Team
-                </div>
-                <div className='hover:text-violet-950 cursor-pointer px-2'>
-                    Contact
-                </div>
+                <Link to='/'>
+                    <div className='hover:text-violet-950 cursor-pointer px-2'>
+                        Home
+                    </div>                
+                </Link>
+                <Link to='/about'>
+                    <div className='hover:text-violet-950 cursor-pointer px-2'>
+                        About
+                    </div>                
+                </Link>
+                <Link to='/vehicle-models'>
+                    <div className='hover:text-violet-950 cursor-pointer px-2'>
+                        Vehicle Models
+                    </div>                
+                </Link>
+                <Link to='/team'>
+                    <div className='hover:text-violet-950 cursor-pointer px-2'>
+                        Our Team
+                    </div>                
+                </Link>
+                <Link to='/contact'>                
+                    <div className='hover:text-violet-950 cursor-pointer px-2'>
+                        Contact
+                    </div>
+                </Link>
             </div>
 
             <div className='hidden md:flex space-x-3 font-semibold transition-all duration-300 ease-in-out'>
@@ -36,7 +50,7 @@ const Navbar = () => {
                 </button>
             </div>
 
-            <div className='md:hidden'>
+            <div className='md:hidden' onClick={() => setModal(true)}>
               <Bars4Icon className='w-7' />  
             </div>
         </div>

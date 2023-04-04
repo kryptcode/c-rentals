@@ -2,7 +2,9 @@
     {
         "id": 0,
         "name": "Audi A1 S-Line",
+        "name2": "Audi A1",
         "img": "https://car-rental-ten.vercel.app/static/media/audia1.d038cf70b700e34e607a.jpg",
+        "img2": "https://car-rental-ten.vercel.app/static/media/audi-box.b3263089022dd5e025dc.png",
         "price": "50,000",
         "model": "Audi",
         "mark": "A1",
@@ -15,7 +17,9 @@
     {
         "id": 1,
         "name": "VW Golf 6",
+        "name2": "Golf 6",
         "img": "https://car-rental-ten.vercel.app/static/media/golf6.595c0bbfc7ce2e50aa05.jpg",
+        "img2": "https://car-rental-ten.vercel.app/static/media/golf6-box.1982e958d19e04048c14.png",
         "price": "42000",
         "model": "Golf 6",
         "mark": "Volkswagen",
@@ -28,7 +32,9 @@
     {
         "id": 2,
         "name": "Toyota Camry",
+        "name2": "Toyota",
         "img": "https://car-rental-ten.vercel.app/static/media/toyotacamry.3d493a56558c50b677cc.jpg",
+        "img2": "https://car-rental-ten.vercel.app/static/media/toyota-box.8968332b7901c6bb183c.png",
         "price": "37000",
         "model": "Camry",
         "mark": "Toyota",
@@ -41,7 +47,9 @@
     {
         "id": 3,
         "name": "BMW 320 ModernLine",
+        "name2": "BMW 320",
         "img": "https://car-rental-ten.vercel.app/static/media/bmw320.84ab73b0c9133418f907.jpg",
+        "img2": "https://car-rental-ten.vercel.app/static/media/bmw-box.185d90ec902e13d80eea.png",
         "price": "40000",
         "model": "320",
         "mark": "BMW",
@@ -54,7 +62,9 @@
     {
         "id": 4,
         "name": "Mercedes-Benz GLK",
+        "name2": "Mercedes",
         "img": "https://car-rental-ten.vercel.app/static/media/benz.0a6153731a2c1a68054a.jpg",
+        "img2": "https://car-rental-ten.vercel.app/static/media/benz-box.a9aa68ef5eb5af1f342b.png",
         "price": "50000",
         "model": "Benz GLK",
         "mark": "Mercedes",
@@ -67,7 +77,9 @@
     {
         "id": 5,
         "name": "VW Passat CC",
+        "name2": "VW Passat",
         "img": "https://car-rental-ten.vercel.app/static/media/passatcc.bd82bd1deac8c11e3c4d.jpg",
+        "img2": "https://car-rental-ten.vercel.app/static/media/passat-box.c78021e11cf230128bcc.png",
         "price": "30000",
         "model": "Passat CC",
         "mark": "Volkswagen",

@@ -33,7 +33,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex-[6] hero-bg hidden md:block  py-8' >
+            <div className='flex-[6] hero-bg hidden md:block  py-10' >
                 <img src={heroImg} className='w-full object-cover' alt="" />
             </div>            
         </div>
